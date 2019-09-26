@@ -1,0 +1,417 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
+body{
+    background: #EAEAEA;
+}
+
+header{
+    width:100%;
+    height:70px ;
+    background:  rgb(84, 147, 248);
+    margin-bottom: 20px;
+    
+    
+}
+
+/*centrar objetos*/
+
+.wrapper{
+    width:90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+
+.header2{
+    position: fixed;
+}
+
+/*grid de header*/
+.contenedorheader{
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+
+}
+
+.contenedorheader > div{
+    display: block;
+    padding: 20px;
+    color: white;
+
+}
+
+.celda{
+    justify-self: start;
+    align-self: start;
+
+}
+.contenedorheader{
+    display: grid;
+    float: left;
+    grid-template-columns: 65px  50px 50px 50px 50px 1000px 370px ;
+
+    
+    
+    
+}
+.iconos{
+    filter: invert(100%)
+}
+.logo1{
+    margin-left: 360px;
+    margin-top: -16px;
+
+}
+
+/*menu lateral*/
+
+input[type= "checkbox"]
+{
+  display: none;
+    
+}
+
+
+/*menu lateral*/
+.prueba{
+
+    margin-left: 50px;
+
+
+
+}
+#icone{
+    margin-left: 280px;
+    margin-top: -16px;
+    
+}
+
+#menubarra{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.barra{
+    margin-top: -60px;
+    background-color: #41454A;
+    height: 1470%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s linear;
+    right: -1550px;
+
+
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top:20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(129, 130, 131);
+}
+nav a:hover{
+    color: white;
+}
+.di{
+    padding: 20px;
+    font-size: 12pt;
+    transition: all .2s linear;
+    right: -400px;
+}
+
+
+
+#check:checked ~ .barra{
+    transform: translateX(-410px);
+    
+}
+.latmenu{
+    margin-top: -15px;
+    margin-left: 115px;
+    filter: invert(100%)
+    
+}
+
+.gorda{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.body1{
+    display: grid;
+    background: black;
+}
+
+
+.cuerpo1{
+ 
+    margin-top: 120px;
+    display: grid;
+    background: white;
+    grid-template-columns: auto auto;
+    grid-row: auto;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    display:block;
+    
+
+
+}
+
+#centrado1{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: all .4s ease;
+
+}
+
+.zoom img:hover {
+    transform:scale(1.1);
+   
+    }
+
+.piepag{
+    text-decoration: none;
+    position: relative;
+    margin-top: -10px;
+    background: rgb(84, 147, 248);
+    width: 60%;
+    height: 20%;
+    color: white;
+    
+}
+
+.espacioescribir{
+    background:white;
+    width: 40%;
+    height: 100%;
+    margin-left: 600px;
+    margin-top: -380px;
+    float: right;
+    text-decoration: none;
+}
+#textnone{
+    text-decoration: none;
+}
+
+.colornegro{
+    color: black;
+}
+
+.colorblanco{
+    margin-left: 10px;
+    color: white;
+}
+
+
+.tenedor{
+    width: 1000px;;
+    height: 350px;
+    margin:auto;
+    margin-top: 20px;  
+    
+}
+
+.tenedor >div{
+    display: block;
+    width: 310px;
+    background:white;
+    grid-row: auto;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    grid-gap: 20px;
+    overflow: hidden;
+
+}
+
+.tenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+
+.tenedor2 > div{
+    display: block;
+    overflow: hidden;
+    
+
+}
+
+#linea1{
+    background: rgb(120, 84, 248);
+}
+
+#linea2{
+    background:  rgb(84, 147, 248);
+}
+
+#linea3{
+    background: rgb(30, 156, 30);
+}
+
+#linea4{
+    background: white;
+ 
+}
+
+#fecha{
+    color: rgb(145, 142, 142);
+}
+
+.tenedor2{
+    display: grid;
+    grid-template-columns: 100%;
+    box-shadow: 1px 1px 5px #666;
+
+}
+
+.textocuadros{
+    background: white;
+}
+
+.lineaazul{
+    background: rgb(84, 147, 248);
+    margin-top:30px
+
+}
+
+
+
+
+.cuchara{
+    
+    width: 1000px;;
+    height: 350px;
+    margin:auto;
+    margin-top: 20px;  
+    grid-row: auto;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    background:white;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #666;
+
+}
+
+.cuchara >div {
+    display: block;
+
+    overflow: hidden;   
+    overflow: hidden;
+    grid-gap: 0px;
+    
+    
+}
+.cuchara{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 85% 20%;
+    margin-top: 150px;
+    
+}
+
+#linea5{
+    background: rgb(84, 147, 248);
+    color: white;
+      
+}
+
+#linea6{
+
+    margin-top: 15px;  
+    margin-left: 15px; 
+
+}
+
+.vertodo{
+    width: 150px;
+    height: 40px;;
+    background: orange;
+    color: white;
+    grid-row: auto;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    margin-left: 260px;
+    margin-top: 20px;  
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #666;
+
+}
+
+.vertodo:hover{
+    background: rgb(233, 152, 2);
+}
+
+#centrado{
+    margin-top: -7px;
+    margin-left: 30px;
+}
+
+.piedepag{
+    
+    background: black
+}
+
+.piedepag >div {
+    margin:auto;
+    width: auto;
+    display: block;
+    overflow: hidden;   
+    grid-gap: 0px;
+    
+    
+}
+
+
+.piedepag{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin:auto;    
+    
+}
+
+
+.colorgris{
+    color: rgb(74, 79, 85); 
+}
+.colorgris:hover{
+    color: white;
+}
+.fondon{
+    background: black;
+}
+
+.derecha{
+    margin-top: -12px;
+    float: right;
+}
+
+.piedepag2{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto 80px 80px 80px 80px 80px;
+    margin:auto;    
+}
