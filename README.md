@@ -1,4 +1,5 @@
 # Pagina Clash Royale con HTML y CSS
 
 
-https://github.com/Hengstenberg11/ClashRoyalePage-with-html-and-css/blob/master/Readme/original.png
+![original](https://user-images.githubusercontent.com/35377655/65732080-75045080-e085-11e9-8eae-ed6523a31d52.png)
+
